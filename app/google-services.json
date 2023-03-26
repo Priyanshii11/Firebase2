@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "752851961118",
+    "project_id": "fir-2-54933",
+    "storage_bucket": "fir-2-54933.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752851961118:android:cd36b87731fb9a094c350f",
+        "android_client_info": {
+          "package_name": "com.priyu.firebase2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752851961118-vafvrgkdd5c1q4lp2g3t6o0epdntmmum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPAi4lxkP66pjf2W6sG6B9RPVlKVoHhag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752851961118-vafvrgkdd5c1q4lp2g3t6o0epdntmmum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
