@@ -11,17 +11,18 @@
         android:id="@+id/editTextTextEmailAddress2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="432dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
         android:ems="10"
         android:hint="Enter Email"
-        android:drawableLeft="@drawable/ic_baseline_person_24"
-        android:textColorHint="#000000"
-        android:scrollbars="horizontal"
-        android:textStyle="bold"
         android:inputType="textEmailAddress"
+        android:scrollbars="horizontal"
+        android:textColorHint="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/alreadyy"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.442"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="206dp" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
@@ -31,8 +32,8 @@
         android:drawableLeft="@drawable/ic_baseline_info_24"
         android:ems="10"
         android:hint="Password"
-        android:scrollbars="horizontal"
         android:inputType="textPassword"
+        android:scrollbars="horizontal"
         android:textColorHint="#000000"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,10 +62,9 @@
         app:layout_constraintVertical_bias="0.483" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/register"
         android:layout_width="96dp"
         android:layout_height="59dp"
-        android:layout_marginEnd="168dp"
         android:layout_marginBottom="276dp"
         android:background="#E17C7A"
         android:text="Log in"
@@ -73,17 +73,14 @@
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_end="54dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/alreadyy"
         android:layout_width="339dp"
         android:layout_height="50dp"
         android:layout_marginStart="50dp"
